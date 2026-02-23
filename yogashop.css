@@ -1,0 +1,66 @@
+/* genearal gonfiguration*/
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: azure;
+}
+/* Hero section*/
+.hero {
+  background: url("yoga.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: rgb(136, 142, 177);
+  padding-bottom: 100px;
+}
+.navbar {
+  background-color: transparent;
+}
+.hero-text {
+  padding: 80px 15px;
+}
+.hero-text h1 {
+  font-size: 50px;
+}
+
+.hero-text p {
+  font-size: 30px;
+}
+/* Nav bar section*/
+.navbar-brand {
+  color: black;
+  font-weight: 500;
+  font-family: fantasy;
+}
+.navbar-link {
+  color: black;
+  font-weight: 500;
+}
+/* product section*/
+.card {
+  border: none;
+  border-radius: 10px;
+  transition:
+    transform 0.3s eas,
+    box-shadow 0.3s ease;
+}
+.card p {
+  font-size: small;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+/*footer*/
+footer {
+  background-color: #2f5d50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/*  RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+}
